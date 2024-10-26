@@ -79,19 +79,20 @@
 
     <!-- SECTION 3 -->
     <div
-      class=" w-full h-auto pt-24 pb-20 | sm:pt-20 | xl:pt-32 | 2xl:pt-32 flex flex-col justify-center items-center font-montserrat relative">
-      <!-- <img class=" w-3/5 opacity-15 absolute top-0 right-0 hidden sm:block grayscale"
+      class=" w-full h-auto pt-24 pb-20 | sm:pt-10 | xl:pt-16 | 2xl:pt-10 flex flex-col justify-center items-center font-montserrat relative">
+      <img class=" w-3/5 opacity-15 absolute top-0 right-0 hidden sm:block grayscale"
         src="./../assets/bunaya_web_logo.png" alt="" draggable="false">
       <img class=" w-3/5 opacity-15 absolute bottom-0 left-0 hidden sm:block grayscale"
-        src="./../assets/bunaya_web_logo.png" alt="" draggable="false"> -->
+        src="./../assets/bunaya_web_logo.png" alt="" draggable="false">
       <div
-        class=" w-full | 2xl:w-1/2 h-full flex flex-col justify-center items-center | lg:items-start font-montserrat text-white px-5 | sm:px-24 | lg:px-16 | xl:px-28 | 2xl:px-0 mb-16 | lg:mb-24 z-10">
-        <div class=" w-full relative">
-          <div class=" w-full | lg:w-1/2 flex flex-col text-sm font-semibold z-10">
+        class=" w-full | 2xl:w-1/2 h-full flex flex-col justify-center items-center | lg:items-start font-montserrat text-white px-5 | sm:px-24 | lg:px-16 | xl:px-28 | 2xl:px-0 mb-16 | lg:mb-14 z-10">
+        <div class=" w-full relative flex justify-center items-center">
+          <div class=" w-full | lg:w-1/2 flex flex-col text-sm font-semibold pr-0 | lg:pr-10 | xl:pr-16">
             <h1
-              class=" w-7 text-xl lg:text-3xl font-semibold absolute top-0 | lg:-top-10 | xl:-top-16 | 2xl:-top-20 right-5 | sm:right-0 | lg:right-10 | xl:right-0">
+              class=" w-7 text-xl lg:text-3xl font-semibold absolute top-0 right-5 | sm:right-0 | lg:right-10 | xl:right-0">
               02</h1>
-            <h1 class=" w-full mb-7 text-xl sm:text-2xl xl:text-3xl capitalize font-bold xl:font-extrabold text-left">
+            <h1
+              class=" w-full mb-7 text-xl | lg:text-2xl sm:text-2xl xl:text-3xl capitalize font-bold xl:font-extrabold text-left">
               sistem
               pendidikan
             </h1>
@@ -104,22 +105,24 @@
                 kepada pembentukan karakter yang dilandasi dengan tuntunan Al-Quran.</li>
             </ul>
           </div>
-          <img class=" w-96 absolute bottom-0 right-0 hidden | lg:block rounded-2xl" src="./../assets/about_img/1.jpeg"
-            alt="">
+          <div class=" hidden | w-1/2 sm:h-[26rem] lg:flex flex-row justify-start items-center p-16">
+            <div class=" w-full h-full bg-aboutImg1 bg-cover bg-center bg-no-repeat rounded-xl shadow-2xl"></div>
+          </div>
         </div>
       </div>
 
       <div
-        class=" w-full | 2xl:w-1/2 h-auto sm:h-full flex flex-row justify-center items-center | lg:items-start font-montserrat text-white px-5 | sm:px-24 | lg:px-16 | xl:px-28 | 2xl:px-0 mb-20 | sm:mb-16 z-10">
-        <div class=" hidden | w-1/2 sm:h-[26rem] lg:flex flex-row justify-start items-center relative xl:left-16">
-          <div class=" w-60 h-72 bg-aboutImg2 bg-cover bg-center bg-no-repeat rounded-xl"></div>
-          <div class=" w-64 h-80 bg-aboutImg3 bg-cover bg-center bg-no-repeat rounded-xl absolute left-28">
+        class=" w-full | 2xl:w-1/2 h-auto sm:h-full flex flex-row justify-center items-center | lg:items-start font-montserrat text-white px-5 | sm:px-24 | lg:px-16 | xl:px-28 | 2xl:px-0 mb-20 | sm:mb-14 | lg:mb-26 z-10">
+        <div class=" hidden | w-1/2 sm:h-[28rem] lg:flex flex-row justify-start items-center relative xl:left-16">
+          <div class=" w-60 h-72 bg-aboutImg2 bg-cover bg-center bg-no-repeat rounded-xl shadow-2xl"></div>
+          <div class=" w-64 h-80 bg-aboutImg3 bg-cover bg-center bg-no-repeat rounded-xl absolute left-28 shadow-2xl">
             <h1 class=" w-28 text-lg font-semibold capitalize absolute bottom-3 left-3 leading-tight">ruang komputer
             </h1>
           </div>
         </div>
-        <div class=" w-full | lg:w-1/2 h-[26rem]">
-          <h1 class=" w-full mb-7 text-xl sm:text-2xl xl:text-3xl capitalize font-bold xl:font-extrabold text-left">
+        <div class=" w-full | lg:w-1/2 h-auto sm:h-[28rem]">
+          <h1
+            class=" w-full mb-7 text-xl | lg:text-2xl sm:text-2xl xl:text-3xl capitalize font-bold xl:font-extrabold text-left">
             sarana pendidikan
           </h1>
           <ul class="list-decimal list-inside font-semibold mb-5">
@@ -135,6 +138,29 @@
           </ul>
           <button
             class=" w-full | lg:w-auto px-14 py-2 rounded-xl bg-gradient-to-r from-[#FFA234] via-[#FFA234] to-[#FFC644] hover:from-[#ffa434d5] hover:via-[#ffa434db] hover:to-[#ffc744df] text-sm font-semibold capitalize">selengkapnya</button>
+        </div>
+      </div>
+
+      <div
+        class=" w-full | 2xl:w-1/2 h-auto sm:h-full flex flex-row justify-center items-center | lg:items-start font-montserrat text-white px-5 | sm:px-24 | lg:px-16 | xl:px-28 | 2xl:px-0 mb-20 | sm:mb-16 z-10">
+        <div class=" w-full flex justify-center items-center">
+          <div class=" w-full | lg:w-1/2 pr-0 | lg:pr-10 | xl:pr-16">
+            <h1
+              class=" w-full mb-7 text-xl | lg:text-2xl sm:text-2xl xl:text-3xl capitalize font-bold xl:font-extrabold text-left">
+              tenaga pengajar
+            </h1>
+            <p class=" font-semibold text-base mb-5">
+              "Staf pengajar Sekolah Islam Terpadu Bunaya bukan hanya pendidik yang berkualitas, tapi juga penuh dengan
+              semangat, kreativitas, dan cinta terhadap anak-anak. Mereka memahami bahwa setiap anak adalah individu
+              yang unik, dan berkomitmen untuk memberikan perhatian serta mengembangkan bakat setiap anak sesuai dengan
+              karakternya."
+            </p>
+            <button
+              class=" w-full | lg:w-auto px-14 py-2 rounded-xl bg-gradient-to-r from-[#FFA234] via-[#FFA234] to-[#FFC644] hover:from-[#ffa434d5] hover:via-[#ffa434db] hover:to-[#ffc744df] text-sm font-semibold capitalize">selengkapnya</button>
+          </div>
+          <div class=" hidden | w-1/2 sm:h-[26rem] lg:flex flex-row justify-start items-center p-10">
+            <div class=" w-full h-full bg-aboutImg4 bg-cover bg-center bg-no-repeat rounded-xl shadow-2xl"></div>
+          </div>
         </div>
       </div>
 
